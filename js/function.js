@@ -4,5 +4,6 @@ function setValue(elementId, value) {
 }
 function multValue(perAmount, playerTotal) {
   const totalValue = perAmount * playerTotal;
+
   return totalValue;
 }

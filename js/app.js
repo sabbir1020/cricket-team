@@ -8,7 +8,7 @@ function selectedPlayer(element) {
   if (players.length < 5) {
     players.push(playerName);
   } else {
-    alert("added 5 players");
+    alert(" Already added 5 players");
   }
   selectPlayer.innerHTML = "";
   //   console.log(selectPlayer);
@@ -46,7 +46,6 @@ document
     const perAmount = parseInt(perAmountElement);
     const playerTotal = players.length;
     const perAmountAndPlayer = perAmount * playerTotal;
-
     const managerInputElement = document.getElementById("Manager-input").value;
     const managerInput = parseInt(managerInputElement);
     const coachInputElement = document.getElementById("coach-input").value;
